@@ -1,0 +1,33 @@
+{
+    "name": "data-mincer",
+    "version": "1.0.0",
+    "description": "modular data parser library for JS and TS applications",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "dev": "ts-node-dev --respawn src/index.ts",
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/selym3/data-mincer.git"
+    },
+    "keywords": [
+        "parser"
+    ],
+    "author": "Myles Pasetsky",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/selym3/data-mincer/issues"
+    },
+    "homepage": "https://github.com/selym3/data-mincer#readme",
+    "devDependencies": {
+        "@types/node": "^16.7.10",
+        "ts-node": "^10.2.1",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.4.2"
+    },
+    "files": ["lib/"]
+}
