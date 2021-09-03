@@ -1,3 +1,5 @@
-export function Greeter(firstName: string, lastName: string) : void {
-    console.log(`Hello ${firstName} ${lastName}!`);
-}
+export * from "./entry";
+export * from "./directory";
+export * from "./file";
+export * from "./matchers";
+export * from "./collectors";
