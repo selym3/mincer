@@ -1,6 +1,6 @@
 {
     "name": "data-mincer",
-    "version": "1.0.1",
+    "version": "2.0.0-0",
     "description": "modular data parser library for JS and TS applications",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
